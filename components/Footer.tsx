@@ -30,9 +30,9 @@ export default function Footer() {
 						whileInView={{ opacity: 1, scale: 1 }}
 						transition={{ ease: "easeInOut", duration: 0.5, delay: 1 }}>
 						<Link
-							href={"mailto:Zainsoftwear11?subject=Portfolio%20Website"}
+							href={"mailto:arch.sas.123@gmail.com?subject=Portfolio%20Website"}
 							className="uppercase text-[25px] text-[#202020] tracking-wider font-semibold">
-							Zainsoftwear11@gmail.com
+							arch.sas.123@gmail.com
 						</Link>
 					</motion.div>
 				</div>

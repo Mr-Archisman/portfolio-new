@@ -22,7 +22,7 @@ export default function Navbar() {
 			</div>
 			<div className="w-[200px] flex items-center justify-center">
 				<h1 className="text-[30px] font-bold tracking-wider text-[#202020] uppercase">
-					Zain
+					Archi
 				</h1>
 			</div>
 			<div className="w-[200px] flex items-center justify-center">

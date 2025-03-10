@@ -58,7 +58,7 @@ export default function Hero() {
 	}, []);
 	return (
 		<section className="w-full h-screen relative py-[20px]">
-			<Navbar />
+			<Navbar /> 
 			<div className="w-full h-full flex flex-col gap-[30px] pt-[8vh] overflow-hidden">
 				<div className="header w-full flex gap-[30px] justify-between">
 					<div className="col flex-1">
