@@ -23,6 +23,8 @@ export { default as github } from './github.png';
 export { default as ochi } from './ochi.png';
 export { default as frame } from "./frame.png";
 export { default as hero } from "./hero.webp";
+export { default as her } from "./her.png";
+export { default as poly } from "./poly.jpg";
 export { default as logo } from "./logo.gif";
 export { default as supadupa } from "./supadupa.png";
 export { default as lightsass } from "./lightsass.png";

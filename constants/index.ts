@@ -115,7 +115,7 @@ export const processItem = [
 export const TfooterItem = [
     {
         id: 1,
-        href: "https://www.linkedin.com/in/devwithzain/",
+        href: "https://www.linkedin.com/in/archisman-saha-web-developer/",
         title: "Linkedin"
     },
     {
@@ -125,7 +125,7 @@ export const TfooterItem = [
     },
     {
         id: 3,
-        href: "https://github.com/devwithzain",
+        href: "https://github.com/Mr-Archisman",
         title: "Github"
     },
 ];

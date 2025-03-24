@@ -1,7 +1,7 @@
 "use client";
 import gsap from "gsap";
 import Image from "next/image";
-import { hero } from "@public";
+import { hero,her,poly } from '@public';
 import { Navbar } from "@/components";
 import { TextMask } from "@animation";
 import { useLayoutEffect } from "react";
@@ -45,8 +45,9 @@ export default function Hero() {
 			duration: 1,
 			delay: 0.5,
 			ease: "power4.inOut",
-			clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+			clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", // Adjust if needed
 		});
+				
 
 		gsap.to(".header .col p", {
 			left: 0,
@@ -75,9 +76,9 @@ export default function Hero() {
 						</p>
 					</div>
 				</div>
-				<div className="hero-img w-full">
+				<div className="hero-img w-full h-[60vh] overflow-hidden relative">
 					<Image
-						src={hero}
+						src={poly}
 						alt="heroImg"
 						className="w-full h-full object-cover"
 					/>
