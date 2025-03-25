@@ -1,7 +1,7 @@
 "use client";
 import gsap from "gsap";
 import Image from "next/image";
-import { hero,her,poly } from '@public';
+import { hero,her,poly,tets } from '@public';
 import { Navbar } from "@/components";
 import { TextMask } from "@animation";
 import { useLayoutEffect } from "react";
@@ -78,7 +78,7 @@ export default function Hero() {
 				</div>
 				<div className="hero-img w-full h-[60vh] overflow-hidden relative">
 					<Image
-						src={poly}
+						src={tets}
 						alt="heroImg"
 						className="w-full h-full object-cover"
 					/>
